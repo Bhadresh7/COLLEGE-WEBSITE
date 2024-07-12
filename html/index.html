@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.20">
+    <title>College website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+  
+</head>
+
+<body>
+    <main id="mainBox">
+        <!-- navbar section -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-light ">
+                <a class="navbar-brand" href="/html/index.html"><span><img
+                            src="https://preview.colorlib.com/theme/course/images/logo.png.webp"
+                            alt="logo">COURSE</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="/html/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/index.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/courses.html">COURSES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/elements.html">ELEMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/news.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="background-slider swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <img src="/images/college.jpg" alt="image" class="image">
+                        <div id="text-overlay">
+                            <h1>1Get your <b>Education</b> today!</h1>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="/images/college.jpg" alt="image" class="image">
+
+                        <div id="text-overlay">
+                            <h1>2Get your <b>Education</b> today!</h1>
+                        </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                        <img src="/images/college.jpg" alt="image" class="image">
+                        <div id="text-overlay">
+                            <h1>3Get your <b>Education</b> today!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div id="btn-container">
+            <button id="previous">PREV</button>
+            <button id="next">NEXT</button>
+        </div>
+
+
+        <div class="card-container container">
+            <div class="card">
+                <h1><i class="bi bi-globe-americas"></i></h1>
+                <h5 class="card-text">Online Courses <span>view more</span></h5>
+            </div>
+            <div class="card">
+                <h1><i class="bi bi-book"></i></h1>
+                <h5 class="card-text">Online Courses <span>view more</span></h5>
+            </div>
+            <div class="card">
+                <h1> <i class="bi bi-globe-americas"></i></h1>
+                <h5 class="card-text">Online Courses <span>view more</span></h5>
+            </div>
+
+        </div>
+        <!-- Popular Course section -->
+        <section>
+            <div class="container">
+                <h1 class="popular-courses">Popular Course</h1>
+                <div class="row mb-lg-5 mb-md-5 mb-sm-5">
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="border: none; background-color:#f1f3f6;">
+                            <img src="/images/ps.jpg" class="card-img-top" alt="photo shop">
+                            <div class="card-body">
+                                <h5 class="card-title">A complete guide to design</h5>
+                                <p class="card-text">Adobe Guide, Layes, Smart Objects etc...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <img src="/images/person.png" alt="person image" height="50" width="50"
+                                            class="img-fluid" style="border-radius: 50%;">
+                                    </span>
+                                    <div class="text">$29</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="border: none; background-color:#f1f3f6;">
+                            <img src="/images/ps.jpg" class="card-img-top" alt="photo shop">
+                            <div class="card-body">
+                                <h5 class="card-title">Beginners guide to HTML</h5>
+                                <p class="card-text">Adobe Guide, Layes, Smart Objects etc...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <img src="/images/person.png" alt="person image" height="50" width="50"
+                                            class="img-fluid" style="border-radius: 50%;">
+                                    </span>
+                                    <div class="text">$29</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="border: none; background-color:#f1f3f6;">
+                            <img src="/images/ps.jpg" class="card-img-top" alt="photo shop">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced Photoshop</h5>
+                                <p class="card-text">Adobe Guide, Layes, Smart Objects etc...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <img src="/images/person.png" alt="person image" height="50" width="50"
+                                            class="img-fluid" style="border-radius: 50%;">
+                                    </span>
+                                    <div class="text">$29</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- register and login section -->
+        <section>
+            <div class="section-container">
+                <div class="message-container">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <h3>
+                            Register now and get a discount <span>50%</span> discount until 1 January
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero quibusdam soluta
+                            neque voluptate magni totam error, doloremque ut officiis
+                            neque voluptate magni totam error, doloremque ut officiis
+                        </p>
+                        <button>REGISTER NOW</button>
+                    </div>
+                </div>
+                <div class="login-container">
+                    <div class="form-inputs">
+                        <h3>Search For Courses</h3>
+                        <input type="text" placeholder="Course name">
+                        <input type="text" placeholder="Category">
+                        <input type="text" placeholder="Degree">
+                        <button>SEARCH COURSE</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Our Services -->
+        <section class="service-container container mt-5">
+            <h1 class="container">Our Services</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="/images/earth-globe.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Online Courses</h4>
+                    <p style="color: rgb(125, 111, 111);" class="card-text">In aliquam, augue a gravida rutrum, ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="/images/exam.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Indoor Courses</h4>
+                    <p style="color:rgb(125, 111, 111) ; " class="card-text">In aliquam, augue a gravida rutrum,
+                        ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="/images/books.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Amazing Library</h4>
+                    <p style="color: rgb(125, 111, 111);" class="card-text">In aliquam, augue a gravida rutrum, ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="/images/professor.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Exceptional Professors</h4>
+                    <p style="color: rgb(125, 111, 111);" class="card-text">In aliquam, augue a gravida rutrum, ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="/images/blackboard.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Top Programs</h4>
+                    <p style="color: rgb(125, 111, 111);" class="card-text">In aliquam, augue a gravida rutrum, ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-6" id="margin">
+                    <img src="/images/mortarboard.svg" alt="globe" height="50" width="50" class="mb-4">
+                    <h4 class="mb-4">Graduate Diploma</h4>
+                    <p style="color: rgb(125, 111, 111);" class="card-text">In aliquam, augue a gravida rutrum, ante
+                        nisl
+                        fermentum nulla,
+                        vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- image section -->
+        <section class="background-section">
+            <div class="slider-container mySwiper">
+                <h1>What our students say</h1>
+                <div class="slider swiper-wrapper">
+                    <div class="slider-item swiper-slide">
+                        <div class="slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illo
+                            aliquam nisi maiores delectus placeat quod blanditiis rerum. Assumenda dolores quasi
+                            accusamus nemo ducimus excepturi praesentium dicta saepe soluta aperiam.</div>
+                        <img src="/images/icon.jpg" alt="Slide 1">
+                        <p>James Cooper</p>
+                    </div>
+                    <div class="slider-item swiper-slide">
+                        <div class="slider-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officiis
+                            repudiandae reprehenderit voluptatem dolor eos aliquid corporis. Repellat debitis non soluta
+                            incidunt odio vitae, dolor blanditiis illum, eos dolorem eum.text.</div>
+                        <img src="/images/icon.jpg" alt="Slide 2">
+                        <p>James Cooper</p>
+                    </div>
+                    <div class="slider-item swiper-slide">
+                        <div class="slider-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id dolores
+                            magnam nostrum perspiciatis sequi ut reiciendis aliquam quas libero veniam consequatur et,
+                            placeat, pariatur, commodi quaerat eos rerum expedita cumque.</div>
+                        <img src="/images/icon.jpg" alt="Slide 3">
+                        <p>James Cooper</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- events section -->
+        <section class="mt-5">
+            <div class=" container event-container">
+                <h1>Upcoming Events</h1>
+                <div class="event-list">
+                    <div class="event-image">
+                        <img src="/images/seminar-hall.jpg" alt="seminar hall image">
+                    </div>
+                    <div class="date">
+                        <h2>07</h2>
+                        <h4>January</h4>
+                    </div>
+                    <div class="event-content">
+                        <a href="/">Student Festival</a>
+                        <h5>Grand Central Park</h5>
+                        <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel
+                            nunc. Proin quis mi malesuada, finibus tortor.</p>
+                    </div>
+                </div>
+                <div class="event-list">
+                    <div class="event-image">
+                        <img src="/images/seminar-hall.jpg" alt="seminar hall image">
+                    </div>
+                    <div class="date">
+                        <h2>07</h2>
+                        <h4>January</h4>
+                    </div>
+                    <div class="event-content">
+                        <a href="/">Student Festival</a>
+                        <h5>Grand Central Park</h5>
+                        <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel
+                            nunc. Proin quis mi malesuada, finibus tortor.</p>
+                    </div>
+                </div>
+                <div class="event-list">
+                    <div class="event-image">
+                        <img src="/images/seminar-hall.jpg" alt="seminar hall image">
+                    </div>
+                    <div class="date">
+                        <h2>07</h2>
+                        <h4>January</h4>
+                    </div>
+                    <div class="event-content">
+                        <a href="/">Student Festival</a>
+                        <h5>Grand Central Park</h5>
+                        <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel
+                            nunc. Proin quis mi malesuada, finibus tortor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section starting -->
+        <footer>
+            <div class="container mt-5">
+                <h3> Subscribe to newletter</h3>
+                <div id="form-inputs">
+                    <input type="Email" placeholder="Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <hr>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="https://preview.colorlib.com/theme/course/images/logo.png.webp"
+                            alt="logo"><span>COURSE</span>
+                        <p id="para">
+                            In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel
+                            nunc.
+                            Proin
+                            quis mi malesuada, finibus tortor fermentum, tempor lacus.
+                        </p>
+                    </div>
+
+                    <!-- menu -->
+                    <div class="col-lg-2 col-md-6 mb-6 container">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- usefull links -->
+                    <div class="col-lg-3 col-md-6 mb-6 container">
+                        <h4>Usefull Links</h4>
+                        <ul>
+                            <li><a href="#">Testinomials</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Campus Picture</a></li>
+                            <li><a href="#">Tuitions</a></li>
+                        </ul>
+                    </div>
+                    <!-- contact -->
+                    <div class="col-lg-3 col-md-6 container">
+                        <h4>Contact</h4>
+                        <ul class="contact">
+                            <li><img src="/images/location.svg" alt="footer" width="30" height="50"><span>Blvd Libertad,
+                                    34
+                                    m05200 Arévalo</span>
+                            </li>
+                            <li><img src="/images/mobile.svg" alt="footer" width="30" height="50"> <span>0034 37483 2445
+                                    322</span></li>
+                            <li><img src="/images/mail.svg" alt="footer" height="50"
+                                    width="30"><span>hello@company.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- footer Copyright links-->
+            <div class="container" id="links-container" style="color: #fff;">
+                <div id="links-text"> Copyright ©2024 All rights reserved</div>
+                <div id="links" style="padding: 1rem;">
+                    <img src="/images/printrest.svg" alt="printrest">
+                    <img src="/images/linkedin.svg" alt="linkedin">
+                    <img src="/images/insta.svg" alt="insta">
+                    <img src="/images/facebook.svg" alt="facebook">
+                    <img src="/images/twitter.svg" alt="twitter">
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>
